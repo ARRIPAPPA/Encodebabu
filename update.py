@@ -14,7 +14,7 @@ try:
     AUPR = config("ALWAYS_UPDATE_PY_REQ", default=False, cast=bool)
     UPSTREAM_REPO = config(
         "UPSTREAM_REPO",
-        default="https://github.com/RAGAVANM1/Tg-encoder")
+        default="https://github.com/raj141414/Tg-Encoder")
     UPSTREAM_BRANCH = config("UPSTREAM_BRANCH", default="main")
 
 except Exception:
